@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  	<groups>
+  		<run>
+  			<include name="PanIndia"></include>
+  			<include name="Kannada"></include>
+  			<exclude name="Bollywood"></exclude>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="org.Automation.TestNG.GroupsExecution.dhanush"/>
+      <class name="org.Automation.TestNG.GroupsExecution.AmirKhan"/>
+      <class name="org.Automation.TestNG.GroupsExecution.salman"/>
+      <class name="org.Automation.TestNG.GroupsExecution.sudeep"/>
+      <class name="org.Automation.TestNG.GroupsExecution.Puneeth"/>
+      <class name="org.Automation.TestNG.GroupsExecution.maheshbabu"/>
+      <class name="org.Automation.TestNG.GroupsExecution.Alluarjun"/>
+      <class name="org.Automation.TestNG.GroupsExecution.shahrukh"/>
+      <class name="org.Automation.TestNG.GroupsExecution.Yash"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
